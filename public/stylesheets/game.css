@@ -1,0 +1,53 @@
+.message {
+  background: yellow;
+  text-align: center;
+}
+
+.title {
+text-align: center
+}
+
+.center {
+  text-align: center;
+  margin: auto
+}
+
+td {
+text-align: center;
+border: 1px solid black;
+height: 200px;
+width: 200px;
+}
+
+.square {
+ text-align: center;
+ text-decoration: none;
+}
+
+.inline {
+  display: inline
+}
+
+td a {
+   color: blue;
+   display: inline-block;
+   z-index: 1;
+   padding: 4em;
+   margin: -4em;
+   background: orange;
+   background-clip: border-box;
+}
+
+.startgame {
+ display: block;
+ text-align: center;
+ padding: 1em;
+ margin: -1em;
+ background: grey;
+ font: black;
+ text-decoration: none;
+}
+
+.start_button {
+ text-decoration: none
+}

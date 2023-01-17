@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tic Tac Toe</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/stylesheets/game.css">
+  </head>
+  <body>
+  <h1 class='title'>Tic Tac Toe </h1>
+  <% if session[:message] %>
+    <h3 class='message'><%= session.delete :message %></h3>
+  <% end %>
+
+  <%= yield %>
+  </body>
+</html>

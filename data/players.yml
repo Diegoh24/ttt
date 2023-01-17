@@ -1,0 +1,61 @@
+---
+player:
+  :password: "$2a$12$dxME38kCAsEyE/eghND9cuC69iIoAa.ydmvK./LLCv9.R7EF7oN.."
+  :games: []
+player2:
+  :password: "$2a$12$8QIqPrn/yL7e6sY9nJlND.Umn9qzAYyS.PfUgRewGql9LIvaUX4ZS"
+  :games:
+  - :squares:
+    - 5
+    - 8
+    - 2
+    :computer_squares:
+    - 4
+    - 6
+    - 1
+  - :squares:
+    - 5
+    - 9
+    - 2
+    - 8
+    :computer_squares:
+    - 4
+    - 7
+    - 3
+    - 6
+  - :squares:
+    - 5
+    - 2
+    - 8
+    :computer_squares:
+    - 6
+    - 1
+  - :squares:
+    - 2
+    - 5
+    - 8
+    :computer_squares:
+    - 9
+    - 3
+    - 7
+  - :squares:
+    - 2
+    - 6
+    - 9
+    - 3
+    :computer_squares:
+    - 5
+    - 1
+    - 4
+  - :squares:
+    - 6
+    - 4
+    - 8
+    - 5
+    :computer_squares:
+    - 2
+    - 7
+    - 9
+player3:
+  :password: "$2a$12$ucOxUPsbu6fjdGrO.PAGl.zTnIUciaBsVfZYQjLhM5ziIlx4CILne"
+  :games: []

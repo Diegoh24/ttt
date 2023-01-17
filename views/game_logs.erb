@@ -1,0 +1,13 @@
+<form method="get" action="/game" class='center'>
+  <label> Return to Main Menu
+    <button type="submit"> Back </button>
+  </label>
+</form>
+<br>
+<h2 class='center'>Game History</h2>
+<br>
+
+<% @games.each.with_index do |game, idx|%>
+  <p class='center'><a href="game_history/<%= idx %>">Game <%= idx %></a></p>
+  <br>
+<% end %>

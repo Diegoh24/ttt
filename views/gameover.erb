@@ -1,0 +1,70 @@
+<table class='center'>
+    <tr>
+        <td >
+        <%= marker(1) %>
+        </td>
+
+        <td>
+        <%= marker(2) %>
+        </td>
+
+        <td>
+        <%= marker(3) %>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+        <%= marker(4) %>
+        </td>
+
+        <td>
+        <%= marker(5) %>
+        </td>
+
+        <td>
+        <%= marker(6) %>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+        <%= marker(7) %>
+        </td>
+
+        <td>
+        <%= marker(8) %>
+        </td>
+
+        <td>
+        <%= marker(9) %>
+        </td>
+    </tr>
+</table>
+<br>
+
+<h2 class="center"> <%= winner %> wins! </h2>
+<br>
+
+<% if session.delete :history %>
+<form method="get" action="/game_history" class='center'>
+  <label> Return to Game History
+    <button type="submit"> Back </button>
+  </label>
+</form>
+<% end %>
+
+<br>
+
+<form method="get" action="/game" class='center'>
+  <label> Would you like to play again?.
+    <button type="submit">Play again</button>
+  </label>
+</form>
+<br>
+
+<form method="post" action="/signout" class="center">
+  <label> Done playing?
+    <button type="submit">Sign Out</button>
+  </label>
+</form>
